@@ -4,5 +4,9 @@
 # What is the minimum number of these soldiers?
 
 x = int(input())
-
-print(19)
+# The minimum of 20*k + 19 is 19.
+y = 19
+while y % x != 0:
+    y += 20
+# Here (20*k + 19) % x == 0
+print(y)
