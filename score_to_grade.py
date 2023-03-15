@@ -2,6 +2,7 @@
 score = int(input())
 
 tens = score // 10
+# not exactly tens as 100 -> 10
 
 if tens >= 9:
     print('A')
