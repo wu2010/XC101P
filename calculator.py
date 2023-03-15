@@ -6,9 +6,7 @@ x = int(a)
 y = int(b)
 
 # handle operator op
-if op not in ('+', '-', '*', '/'):
-    print("Invalid operator!")
-elif op == '+':
+if op == '+':
     print(x + y)
 elif op == '-':
     print(x - y)
@@ -19,3 +17,5 @@ elif op == '/':
         print("Divided by zero!")
     else:
         print(x / y)
+else:
+    print("Invalid operator!")
