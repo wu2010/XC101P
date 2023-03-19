@@ -20,7 +20,8 @@ while math.pow(i, 2) <= N:
         size += 1
     i += 2
 
-# print(primes)
+# up to sqrt(N)
+print(primes)
 
 
 if N <= 2:
